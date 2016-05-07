@@ -14,11 +14,12 @@ h1{
 	font-family: "Courier New"; Monospace;
 	font-style: bold;
 	font-weight: 600;
-	font-size: 100px
+	font-size: 100px;
 }
 
-#slogan {font-weight: bold;
-	font-style: italic;,
+#slogan {
+	font-weight: bold;
+	font-style: italic;
 	font-size:80px; 
 }
 
