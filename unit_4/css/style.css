@@ -19,7 +19,7 @@ h1{
 }
 
 #billboard {
-	width: 60%
+	width: 60%;
 	align-items: center;
 }
 
@@ -36,7 +36,8 @@ p{
 	font-size:1em;
 	width:50em;
 	margin: 2em auto;
-	line-height: 1.5em
+	line-height: 1.5em;
+	letter-spacing: 6px;
 	
 }
 
@@ -46,18 +47,27 @@ img{
 }
 
 hr{
-	border: 2px, #3C3C3C
-}
-#main{
-	font-family: 'Antic Slab', serif;
-	font-style: bold
-	font-size: 10em;
+	border: 2px #3C3C3C;
 }
 
+h3.main {
+	font-family: 'Antic Slab', serif;
+	font-style: bold;
+	font-size: 2em;
+}
+
+.link {
+	display: block;
+}
 
 a{
 	text-decoration: none;
 	color:#FFDDDD;
 	font-size: 2em;
-	text-align: center
+	text-align: center;
+}
+
+a:hover{
+	color:red;
+}
 }
