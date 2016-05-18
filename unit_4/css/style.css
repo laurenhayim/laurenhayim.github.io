@@ -6,28 +6,58 @@
 body {
 	background-color: #DDFFF7;
 	text-align: center;
-	background: url('../images/redbow.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
 
 }
 
 h1{
-	color: #000000;
+	color: #E3103E;
 	font-family: 'Antic Slab', serif;
-	font-weight: 20px;
-	font-size: 100px;
+	font-weight: 200px;
+	font-size: 7em;
 }
+
+#billboard {
+	width: 60%
+	align-items: center;
+}
+
 
 #slogan {
+	color:#000000;
 	font-family: 'Antic Slab', serif; 
-	font-style: italic;
-	font-size:40px; 
+	font-style: bold;
+	font-size:2.5em; 
 
 }
 
-a {
+p{
+	font-size:1em;
+	width:50em;
+	margin: 2em auto;
+	line-height: 1.5em
+	
+}
+
+img{
+	width:30%;
+	align-items: center;
+}
+
+hr{
+	border: 2px, #3C3C3C
+}
+#main{
+	font-family: 'Antic Slab', serif;
+	font-style: bold
+	font-size: 10em;
+}
+
+
+a{
 	text-decoration: none;
+	color:#FFDDDD;
+	font-size: 2em;
+	text-align: center
 }
